@@ -16,6 +16,8 @@ struct TrackModel {
 //данный экран будет отвечать за поиск треков из internet
 class SearchViewController: UITableViewController {
     
+    let searchController = UISearchController(searchResultsController: nil)
+    
     let tracks = [TrackModel(trackName: "bad guy", artistName: "Billie Eilish"),
                  TrackModel(trackName: "bury a friend", artistName: "Billie Eilish")]
     
@@ -24,7 +26,14 @@ class SearchViewController: UITableViewController {
         
         view.backgroundColor = .white
         
+        setupSearchBar()
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
+    }
+    
+    private func setupSearchBar() {
+        navigationItem.searchController = searchController
+        navigationItem.hidesSearchBarWhenScrolling = false
     }
     
     //создаем метод numberOfRowsInSection отвечающий за количество ячеек в таблице
