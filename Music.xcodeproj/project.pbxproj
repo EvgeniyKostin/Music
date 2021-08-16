@@ -14,6 +14,7 @@
 		FE35D2F926C9BECC00CEE191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35D2F826C9BECC00CEE191 /* Assets.xcassets */; };
 		FE35D2FC26C9BECC00CEE191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE35D2FA26C9BECC00CEE191 /* LaunchScreen.storyboard */; };
 		FED6F97C26C9C02800818993 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6F97B26C9C02800818993 /* MainTabBarController.swift */; };
+		FED6F97E26CAD12600818993 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6F97D26CAD12600818993 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FE35D2FB26C9BECC00CEE191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE35D2FD26C9BECC00CEE191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED6F97B26C9C02800818993 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FED6F97D26CAD12600818993 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				FE35D2EF26C9BEC800CEE191 /* AppDelegate.swift */,
 				FE35D2F126C9BEC800CEE191 /* SceneDelegate.swift */,
+				FED6F97D26CAD12600818993 /* SearchViewController.swift */,
 				FE35D2F326C9BEC800CEE191 /* ViewController.swift */,
 				FED6F97B26C9C02800818993 /* MainTabBarController.swift */,
 				FE35D2F526C9BEC800CEE191 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED6F97E26CAD12600818993 /* SearchViewController.swift in Sources */,
 				FE35D2F426C9BEC800CEE191 /* ViewController.swift in Sources */,
 				FE35D2F026C9BEC800CEE191 /* AppDelegate.swift in Sources */,
 				FED6F97C26C9C02800818993 /* MainTabBarController.swift in Sources */,

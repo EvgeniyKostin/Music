@@ -12,5 +12,13 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         view.backgroundColor = .gray
+        
+        let searchVC = SearchViewController()
+        let libraryVC = ViewController()
+        
+        viewControllers = [
+            searchVC,
+            libraryVC
+        ]
     }
 }
