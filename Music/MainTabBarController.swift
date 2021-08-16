@@ -12,6 +12,8 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        
+        tabBar.tintColor = #colorLiteral(red: 1, green: 0.1719351113, blue: 0.4505646229, alpha: 1)
                        
         viewControllers = [
             generateViewController(rootViewController: SearchViewController(), image: #imageLiteral(resourceName: "ios10-apple-music-search-5nav-icon"), title: "Search"),
@@ -28,6 +30,7 @@ class MainTabBarController: UITabBarController {
         navigationVC.navigationBar.prefersLargeTitles = true
         return navigationVC
     }
+    
     
 }
  
