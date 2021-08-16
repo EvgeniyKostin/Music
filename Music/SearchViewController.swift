@@ -7,6 +7,11 @@
 
 import UIKit
 
+struct TrackModel {
+    var trackName: String
+    var artistName: String
+}
+
 //данный экран будет отвечать за поиск треков из internet
 class SearchViewController: UITableViewController {
     
