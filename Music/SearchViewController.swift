@@ -34,6 +34,7 @@ class SearchViewController: UITableViewController {
     private func setupSearchBar() {
         navigationItem.searchController = searchController
         navigationItem.hidesSearchBarWhenScrolling = false
+        searchController.searchBar.delegate = self
     }
     
     //создаем метод numberOfRowsInSection отвечающий за количество ячеек в таблице
@@ -51,4 +52,11 @@ class SearchViewController: UITableViewController {
         return cell
     }
     
+}
+
+extension SearchViewController: UISearchBarDelegate {
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        print(searchText)
+    }
 }
