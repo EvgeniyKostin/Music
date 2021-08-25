@@ -15,7 +15,7 @@ struct TrackModel {
 }
 
 //данный экран будет отвечать за поиск треков из internet
-class SearchViewController: UITableViewController {
+class SearchMusicViewController: UITableViewController {
     
     var networkService = NetworkService()
     
