@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		FE35D2F726C9BEC800CEE191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE35D2F526C9BEC800CEE191 /* Main.storyboard */; };
 		FE35D2F926C9BECC00CEE191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35D2F826C9BECC00CEE191 /* Assets.xcassets */; };
 		FE35D2FC26C9BECC00CEE191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE35D2FA26C9BECC00CEE191 /* LaunchScreen.storyboard */; };
+		FE39CDDE26D0362200C98F95 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39CDDD26D0362200C98F95 /* SearchResponse.swift */; };
+		FE6D485026D6B1180007954D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D484F26D6B1180007954D /* NetworkService.swift */; };
 		FED6F97C26C9C02800818993 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6F97B26C9C02800818993 /* MainTabBarController.swift */; };
 		FED6F97E26CAD12600818993 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6F97D26CAD12600818993 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		FE35D2F826C9BECC00CEE191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE35D2FB26C9BECC00CEE191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE35D2FD26C9BECC00CEE191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE39CDDD26D0362200C98F95 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		FE6D484F26D6B1180007954D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FED6F97B26C9C02800818993 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FED6F97D26CAD12600818993 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,6 @@
 				80A0F2419F8CF6525F0CA295 /* Pods-Music.debug.xcconfig */,
 				796FAFD969A389DDC4F9C2CA /* Pods-Music.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +91,8 @@
 				FE35D2EF26C9BEC800CEE191 /* AppDelegate.swift */,
 				FE35D2F126C9BEC800CEE191 /* SceneDelegate.swift */,
 				FED6F97D26CAD12600818993 /* SearchViewController.swift */,
+				FE6D484F26D6B1180007954D /* NetworkService.swift */,
+				FE39CDDD26D0362200C98F95 /* SearchResponse.swift */,
 				FE35D2F326C9BEC800CEE191 /* ViewController.swift */,
 				FED6F97B26C9C02800818993 /* MainTabBarController.swift */,
 				FE35D2F526C9BEC800CEE191 /* Main.storyboard */,
@@ -214,9 +219,11 @@
 			files = (
 				FED6F97E26CAD12600818993 /* SearchViewController.swift in Sources */,
 				FE35D2F426C9BEC800CEE191 /* ViewController.swift in Sources */,
+				FE39CDDE26D0362200C98F95 /* SearchResponse.swift in Sources */,
 				FE35D2F026C9BEC800CEE191 /* AppDelegate.swift in Sources */,
 				FED6F97C26C9C02800818993 /* MainTabBarController.swift in Sources */,
 				FE35D2F226C9BEC800CEE191 /* SceneDelegate.swift in Sources */,
+				FE6D485026D6B1180007954D /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
